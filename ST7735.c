@@ -553,6 +553,9 @@ void LCD_Init(void)
   MilliSleep(115);                 /* pause for 120ms (blanking sequence) */
   LCD_Cmd(CMD_SLEEP_OUT);          /* leave sleep mode */
   MilliSleep(120);                 /* pause for 120ms (booster & clocks) */
+  #ifdef LCD_INVERSION
+  LCD_Cmd(CMD_INVERSION_ON);
+  #endif
   #ifndef LCD_LATE_ON
   /* turn on display early as visual feedback */
   LCD_Cmd(CMD_DISPLAY_ON);         /* enable display output */
