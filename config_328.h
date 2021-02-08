@@ -659,6 +659,7 @@
 #define LCD_ROTATE                      /* switch X and Y (rotate by 90°) */
 //#define LCD_BGR                         /* reverse red and blue color channels */
 //#define LCD_LATE_ON                     /* turn on LCD after clearing it */
+#define LCD_INVERSION                     /* turn on display inversion */
 /* font and symbols: horizontally aligned & flipped */
 //#define FONT_10X16_HF                   /* 10x16 font */
 #define FONT_12X16_HF

@@ -305,7 +305,7 @@
  *  - uncomment to enable
  */
 
-//#define SW_ESR_TOOL
+#define SW_ESR_TOOL
 
 
 /*
@@ -646,7 +646,7 @@
  *  - uncomment to enable
  */
 
-//#define UI_AUTOHOLD
+#define UI_AUTOHOLD
 
 
 /*
@@ -772,8 +772,8 @@
  *  - uncomment one
  */ 
 
-#define DATA_EEPROM           /* store data in EEPROM */
-//#define DATA_FLASH            /* store data in Flash */
+//#define DATA_EEPROM           /* store data in EEPROM */
+#define DATA_FLASH            /* store data in Flash */
 
 
 
@@ -792,8 +792,8 @@
  *  - enable one
  */
 
-#define POWER_SWITCH_SOFT
-//#define POWER_SWITCH_MANUAL
+//#define POWER_SWITCH_SOFT
+#define POWER_SWITCH_MANUAL
 
 
 /*
@@ -804,9 +804,9 @@
  *  - uncomment one of the modes
  */
 
-//#define BAT_NONE
+#define BAT_NONE
 //#define BAT_DIRECT
-#define BAT_DIVIDER
+//#define BAT_DIVIDER
 
 
 /*
@@ -879,7 +879,7 @@
  *  ADC voltage reference based on Vcc (in mV). 
  */
 
-#define UREF_VCC         5001
+#define UREF_VCC         4978
 
 
 /*
@@ -933,7 +933,7 @@
  *  - uncomment to enable
  */
 
-//#define R_MULTIOFFSET
+#define R_MULTIOFFSET
 
 
 /* 
@@ -958,7 +958,7 @@
  *  - uncomment to enable
  */
 
-//#define CAP_MULTIOFFSET
+#define CAP_MULTIOFFSET
 
 
 /*
